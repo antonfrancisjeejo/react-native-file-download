@@ -43,7 +43,7 @@ const App = () => {
 
   const downloadPdf = () => {
     const date = new Date();
-    let pdf_url = download_url2;
+    let pdf_url = download_url;
     let file_ext = getFileExtention(pdf_url);
 
     file_ext = '.' + file_ext[0];
